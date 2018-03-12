@@ -1,17 +1,19 @@
 {
-  "name": "FECdemo",
+  "name": "AirEnE",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./server/server.js"
+    "start": "nodemon ./server/server.js",
+    "docker": "node ./server/server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "morgan": "^1.9.0",
     "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "path": "^0.12.7",
     "request": "^2.75.0"
   }
 }
